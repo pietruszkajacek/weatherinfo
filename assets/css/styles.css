@@ -1,0 +1,128 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.container {
+	width: 970px;
+	max-width: none !important;
+	}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-group {
+	margin-bottom: 0;
+}
+
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .has-error .form-control:focus {
+	z-index: 3;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin .has-error .form-control {
+	z-index: 1;
+}
+
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#cities, #front-end-cities {
+	height: 247px;
+	overflow-y: scroll;
+	padding: 0 15px;
+}
+
+#cities ul.list-group, #front-end-cities ul.list-group {
+	margin-bottom: 0;
+}
+
+#cities ul li {
+	width: 244px;
+	z-index: 1;
+}
+
+#cities ul li.ui-draggable-disabled {
+	color: #777;
+	background-color: #eee;
+}
+
+#get-cities-btn {
+	width: 100%;
+}
+
+#cities ul, #front-end-cities ul {
+	min-height: 244px;
+}
+
+#main .nav {
+	margin-bottom: 20px;
+}
+
+.list-group .list-group-item p {
+	margin-bottom: 0;
+}
+
+#weather-panel {
+	width: 300px;
+}
+
+#weather-panel .dl-horizontal dt {
+	width: 125px;
+}
+
+#weather-panel #front-end-cities-select {
+	margin-bottom: 20px;
+}
+
+#weather-panel dl {
+	margin-bottom: 0;
+}
+
+#weather-panel .well {
+	margin-bottom: 0;
+}
+
+.info-panel {
+	position: relative;
+}
+
+.info-panel .ajax-loader {
+	position: absolute;
+	bottom: -27px;
+	right: 0;
+}
