@@ -69,7 +69,12 @@ WINFO = $.extend(true, (typeof WINFO === 'undefined') ? {} : WINFO, {
 						
 						$current_info_panel.attr( 'data-post-req', '0' );
 						WINFO.weatherinfo._ajax_loader( false, $current_info_panel );
+					},
+					error: function ( data ) {
+						$current_info_panel.attr( 'data-post-req', '0' );
+						WINFO.weatherinfo._ajax_loader( false, $current_info_panel );
 					}
+					
 				} );
 			}
 		}	

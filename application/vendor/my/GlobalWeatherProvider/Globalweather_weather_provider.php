@@ -12,7 +12,6 @@ class Globalweather_weather_provider extends Weather_provider
 	{
 		//parent::__construct();
 		ini_set("default_socket_timeout", $connection_timeout);
-		
 		$this->client = new \SoapClient($wsdl, array('connection_timeout' => $connection_timeout));
 	}
 	

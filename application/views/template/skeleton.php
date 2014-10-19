@@ -14,7 +14,10 @@
 		<!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 		
 		<link href="https://code.jquery.com/ui/1.11.1/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/css/weather-icons.css" rel="stylesheet">
 		<link href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		
 		
 		<!-- main CSS -->
 		<link href="<?php echo base_url(); ?>assets/css/styles.css" rel="stylesheet">

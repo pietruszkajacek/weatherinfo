@@ -29,42 +29,42 @@ class Weatherinfo_model extends CI_Model
 	{
 		$data = array();
 		
-		if (! is_null($weather->Location)) 
+		if (! is_null($weather->Location))
 		{
 			$data['location'] = $weather->Location;
 		}
 		
-		if (! is_null($weather->Wind)) 
+		if (! is_null($weather->Wind))
 		{
 			$data['wind'] = $weather->Wind;
 		}
 		
-		if (! is_null($weather->Visibility)) 
+		if (! is_null($weather->Visibility))
 		{
 			$data['visibility'] = $weather->Visibility;
 		}
 		
-		if (! is_null($weather->SkyConditions)) 
+		if (! is_null($weather->SkyConditions))
 		{
 			$data['skyconditions'] = $weather->SkyConditions;
 		}
 
-		if (! is_null($weather->Temperature)) 
+		if (! is_null($weather->Temperature))
 		{
 			$data['temperature'] = $weather->Temperature;
 		}
 		
-		if (! is_null($weather->DewPoint)) 
+		if (! is_null($weather->DewPoint))
 		{
 			$data['dewpoint'] = $weather->DewPoint;
 		}
 
-		if (! is_null($weather->RelativeHumidity)) 
+		if (! is_null($weather->RelativeHumidity))
 		{
 			$data['relativehumidity'] = $weather->RelativeHumidity;
 		}
 
-		if (! is_null($weather->Pressure)) 
+		if (! is_null($weather->Pressure))
 		{
 			$data['pressure'] = $weather->Pressure;
 		}
@@ -72,7 +72,7 @@ class Weatherinfo_model extends CI_Model
 		$this->db->where('country_name', $weather->country);
 		$this->db->where('city_name', $weather->city);
 		
-		$this->db->update('cities_weather', $data);	
+		$this->db->update('cities_weather', $data);
 	}
 
 	public function get_city_weather($country, $city)
