@@ -1,3 +1,14 @@
+Rozwiązanie zadania rekrutacyjnego (Future Processing).
+
+Użyte technologie to głównie PHP (CodeIgniter) i Javascript (Jquery, Jquery UI)...
+
+Dostęp do panelu administracyjnego: 
+login: admin@admin.com 
+password: password
+Zrzut z bazy znajduje się w folderze sql.
+
+Treść zadania:
+
 Weather Info [PHP]
 
 W ramach tego zadania należy stworzyć aplikację, która korzystając z publicznie dostępnych usług 
@@ -5,6 +16,7 @@ sieciowych (używając SOAP) będzie pobierała i wyświetlała w dowolnym miejs
 na temat pogody w wybranym przez użytkownika mieście.
 
 Aplikacja powinna składać się z dwóch części:
+
 1. Frontend dostępny dla każdego użytkownika strony, który umożliwia wybranie miasta z listy 
 predefinowanych miast i sprawdzenie stanu aktualnej pogody. W wypadku chwilowego 
 braku połączenia z zewnętrznymi usługami rozwiązanie powinno wyświetlać ostatnie 
@@ -42,4 +54,4 @@ Kod oraz interfejs programu powinien być napisany w języku angielskim.
 
 Należy dostarczyć kod źródłowy aplikacji, zrzut bazy danych (rozwiązanie gotowe do uruchomienia) 
 oraz krótką informację na temat wykonanego projektu (np. użyte technologie, ciekawe rozwiązania 
-itp.)
+itp.).
