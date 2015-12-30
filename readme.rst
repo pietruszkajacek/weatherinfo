@@ -19,9 +19,9 @@ Aplikacja powinna składać się z dwóch części:
 zapisane informacje z bazy danych. Aplikacja powinna umożliwiać odświeżenie informacji pogodowych bez przeładowania strony.
 
 2. Backend dostępny wyłącznie dla administratora, który umożliwia:
-a. Skonfigurowanie adresu usługi sieciowej wykorzystywanej do pobierania danych. Do pobierania danych można skorzystać z usługi http://www.service-repository.com/service/overview/-2082028434 lub jakiegoś innego publicznie dostępnego serwera.
-b. Skonfigurowanie timeoutu dla zapytań SOAP.
-c. Edycję listy miast (dodawanie, usuwanie, edycja) przechowywanej w bazie danych.
+* Skonfigurowanie adresu usługi sieciowej wykorzystywanej do pobierania danych. Do pobierania danych można skorzystać z usługi http://www.service-repository.com/service/overview/-2082028434 lub jakiegoś innego publicznie dostępnego serwera.
+* Skonfigurowanie timeoutu dla zapytań SOAP.
+* Edycję listy miast (dodawanie, usuwanie, edycja) przechowywanej w bazie danych.
 
 Zalecane jest, aby rozwiązanie umożliwiało rozszerzenie swojej funkcjonalności również na innych 
 dostawców danych pogodowych.
