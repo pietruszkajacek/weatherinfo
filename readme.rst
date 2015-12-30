@@ -1,6 +1,8 @@
-Rozwiązanie zadania rekrutacyjnego (Future Processing).
+Weather Info - zadanie rekrutacyjne PHP
+==========================================================
+Rozwiązanie zadania rekrutacyjnego do jednej z firm zajmuj
 
-Użyte technologie to głównie PHP (CodeIgniter) i Javascript (Jquery, Jquery UI)...
+Użyte technologie to głównie PHP (framework CodeIgniter) i Javascript (Jquery, Jquery UI)...
 
 Dostęp do panelu administracyjnego: 
 login: admin@admin.com 
@@ -9,21 +11,20 @@ Zrzut z bazy znajduje się w folderze sql.
 
 Treść zadania:
 
-Weather Info [PHP]
+
 
 W ramach tego zadania należy stworzyć aplikację, która korzystając z publicznie dostępnych usług 
 sieciowych (używając SOAP) będzie pobierała i wyświetlała w dowolnym miejscu strony informację 
 na temat pogody w wybranym przez użytkownika mieście.
 
 Aplikacja powinna składać się z dwóch części:
-
-1. Frontend dostępny dla każdego użytkownika strony, który umożliwia wybranie miasta z listy 
++  Frontend dostępny dla każdego użytkownika strony, który umożliwia wybranie miasta z listy 
 predefinowanych miast i sprawdzenie stanu aktualnej pogody. W wypadku chwilowego 
 braku połączenia z zewnętrznymi usługami rozwiązanie powinno wyświetlać ostatnie 
 zapisane informacje z bazy danych. Aplikacja powinna umożliwiać odświeżenie informacji 
 pogodowych bez przeładowania strony.
 
-2. Backend dostępny wyłącznie dla administratora, który umożliwia:
+ Backend dostępny wyłącznie dla administratora, który umożliwia:
 
 a. Skonfigurowanie adresu usługi sieciowej wykorzystywanej do pobierania danych. Do 
 pobierania danych można skorzystać z usługi http://www.service-
