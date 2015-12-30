@@ -15,8 +15,7 @@ sieciowych (używając SOAP) będzie pobierała i wyświetlała w dowolnym miejs
 na temat pogody w wybranym przez użytkownika mieście.
 Aplikacja powinna składać się z dwóch części:
 
-+ Frontend dostępny dla każdego użytkownika strony, który umożliwia wybranie miasta z listy predefinowanych miast i sprawdzenie stanu aktualnej pogody. W wypadku chwilowego braku połączenia z zewnętrznymi usługami rozwiązanie powinno wyświetlać ostatnie 
-zapisane informacje z bazy danych. Aplikacja powinna umożliwiać odświeżenie informacji pogodowych bez przeładowania strony.
++ Frontend dostępny dla każdego użytkownika strony, który umożliwia wybranie miasta z listy predefinowanych miast i sprawdzenie stanu aktualnej pogody. W wypadku chwilowego braku połączenia z zewnętrznymi usługami rozwiązanie powinno wyświetlać ostatnie zapisane informacje z bazy danych. Aplikacja powinna umożliwiać odświeżenie informacji pogodowych bez przeładowania strony.
 
 + Backend dostępny wyłącznie dla administratora, który umożliwia:
 
