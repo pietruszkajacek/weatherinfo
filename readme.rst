@@ -5,6 +5,7 @@ Rozwiązanie zadania rekrutacyjnego.
 Użyte technologie to głównie PHP (framework CodeIgniter) i Javascript (Jquery, Jquery UI)...
 
 Dostęp do panelu administracyjnego: 
+
 login: admin@admin.com 
 password: password
 
