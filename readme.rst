@@ -3,9 +3,11 @@ Weather Info - zadanie rekrutacyjne PHP
 Rozwiązanie zadania rekrutacyjnego.
 
 Użyte technologie to głównie PHP (framework CodeIgniter) i Javascript (Jquery, Jquery UI)...
+
 Dostęp do panelu administracyjnego: 
 login: admin@admin.com 
 password: password
+
 Zrzut z bazy znajduje się w folderze sql.
 
 Treść zadania:
