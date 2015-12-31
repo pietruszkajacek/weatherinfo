@@ -1,5 +1,5 @@
 Weather Info - zadanie rekrutacyjne PHP
-==========================================================
+=======================================
 Rozwiązanie zadania rekrutacyjnego.
 
 Użyte technologie to głównie PHP (framework CodeIgniter) i Javascript (Jquery, Jquery UI)...
@@ -14,15 +14,10 @@ W ramach tego zadania należy stworzyć aplikację, która korzystając z public
 sieciowych (używając SOAP) będzie pobierała i wyświetlała w dowolnym miejscu strony informację 
 na temat pogody w wybranym przez użytkownika mieście.
 Aplikacja powinna składać się z dwóch części:
-
 1) Frontend dostępny dla każdego użytkownika strony, który umożliwia wybranie miasta z listy predefinowanych miast i sprawdzenie stanu aktualnej pogody. W wypadku chwilowego braku połączenia z zewnętrznymi usługami rozwiązanie powinno wyświetlać ostatnie zapisane informacje z bazy danych. Aplikacja powinna umożliwiać odświeżenie informacji pogodowych bez przeładowania strony.
-
 2) Backend dostępny wyłącznie dla administratora, który umożliwia:
- 
 a) Skonfigurowanie adresu usługi sieciowej wykorzystywanej do pobierania danych. Do pobierania danych można skorzystać z usługi http://www.service-repository.com/service/overview/-2082028434 lub jakiegoś innego publicznie dostępnego serwera.
- 
 b) Skonfigurowanie timeoutu dla zapytań SOAP.
- 
 c) Edycję listy miast (dodawanie, usuwanie, edycja) przechowywanej w bazie danych.
 
 Zalecane jest, aby rozwiązanie umożliwiało rozszerzenie swojej funkcjonalności również na innych 
